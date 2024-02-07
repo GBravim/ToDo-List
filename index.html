@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="containers">
+        <div id="all-todos">
+            <h1>ALL</h1>
+            <div id="new-todos" class="todo">
+                <label for="todo-input">New Task: </label>
+                <input id="todo-input" type="text" name="todo-input">
+                <button id="enter-todo">Add</button>
+            </div>
+            <div class="todo-list"></div>
+        </div>
+        
+        <div id="active-todos">
+            <h1>ACTIVE</h1>
+            <div id="active" class="todo-list"></div>
+        </div>
+        
+        <div id="completed-todos">
+            <h1>COMPLETED</h1>
+            <div id="completed" class="todo-list"></div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
