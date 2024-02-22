@@ -24,20 +24,17 @@ input[type="text"]{
 }
 
 .task{
+    font-size: 18px;
+    background-color: #d6d6d6;
     width: 60vh;
+    max-width: 60vh;
     height: auto;
     border-radius: 10px;
     margin: 5px auto;
     padding-left: 10px;
     display: flex;
     align-items: center;
-    z-index: 0;
     word-wrap: break-word;
-    overflow-wrap: break-word;
-}
-
-.todo{
-    font-size: 18px;
 }
 
 .bi-circle, .bi-check-circle{
@@ -52,10 +49,9 @@ input[type="text"]{
 .bi-x-octagon{
     font-weight: bolder;
     border: none;
-    background-color: inherit;
     color: rgb(170, 9, 9);
     margin-left: auto;
-    
+    padding: 3px 5px 3px 2px;    
 }
 
 .complete{
@@ -75,18 +71,15 @@ input[type="text"]{
     position: absolute;
     top: 50%;
     left: 50%;
-    border-radius: 10px;
+    border-radius: 15px;
     padding: 0 20px 30px 20px;
+    padding-bottom: 30px;
     box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
-    overflow-y: auto;
-    overflow-x: hidden;
 }
 
-#header{
-    background-color: #fff;
-    border-top: 1px solid #fff;
-    position: sticky;
-    z-index: 1;
+#todo-list{
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 #list-choice {
