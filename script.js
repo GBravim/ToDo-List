@@ -6,8 +6,6 @@ const hIdentifier = document.getElementById("todo-identifier");
 const divTodoList = document.getElementById("todo-list");
 
 let totalTodos = 0;
-let activeTaskArr = [];
-let completeTaskArr = [];
 
 function addCheck(){
     if((totalTodos < 100) && (inputTodo.value.trim() != '')){
